@@ -6,6 +6,11 @@ export const metadata = {
   description: "Freelance web development for local businesses.",
 };
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
+
 export default function RootLayout({
   children,
 }: {
